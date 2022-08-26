@@ -4,6 +4,8 @@ import Props from  './Props';
 import ComponentWithProps from './ComponentWithProps';
 import Game from "./Game"
 import Effect from "./Effect";
+import Login from "./User";
+import Car from "./Car"
 
 
 function App() {
@@ -29,6 +31,8 @@ function App() {
 
           <Game />
           <Effect />
+          <Login />
+          <Car />
         
       </div>
     </div>
