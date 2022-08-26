@@ -1,23 +1,36 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Props from  './Props';
+import ComponentWithProps from './ComponentWithProps';
+import Game from "./Game"
+import Effect from "./Effect";
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+         <Props 
+            name="Brian Wilson"
+            animal="Elephant"
+            age="22"
+            breed="mammal"
+         />
+      
       </header>
+
+      <div>
+          <ComponentWithProps
+             header="Hello and welcome to the page"
+             content="Elephants are too gentle"
+             number="22 text"
+             nocontent="nothing here"
+          />
+
+          <Game />
+          <Effect />
+        
+      </div>
     </div>
   );
 }
