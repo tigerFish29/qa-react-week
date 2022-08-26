@@ -6,6 +6,7 @@ import Game from "./Game"
 import Effect from "./Effect";
 import Login from "./User";
 import Car from "./Car"
+import Products from "./Products";
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
           <Effect />
           <Login />
           <Car />
+          <Products />
         
       </div>
     </div>
