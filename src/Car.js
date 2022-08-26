@@ -9,7 +9,7 @@ const Car = () => {
 
      return(
          <>
-             <h1>My car is a beaut. </h1>
+             <h1>My car is a beauty. </h1>
              <h4>These are her features:</h4>
              <p>{brand},{model}</p>
              <p>{colour}</p>
